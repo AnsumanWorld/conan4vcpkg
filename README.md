@@ -23,6 +23,10 @@
     ```bat
         vcpkgbin.bat download vcpkg/0.0.81-6@had/vcpkg bzip2 x64-windows-v141  
     ```
+    - example 2: **for downloading multiple package bzip2:x64-windows-v141 and zlib:x64-windows-v141**
+    ```bat
+        vcpkgbin.bat vcpkg/0.0.81-6@ansu/vcpkg "bzip2 zlib" x64 v141  
+    ```
 2. `[listing package present in remote]`
     - it will show the package information which is present in remote system
     - syntax:
@@ -65,4 +69,4 @@
     ```
 
 ## `notes`
-- after running this script, all the requested package will be installed/<platform>-windows-<toolset>
+- after running this script, all the requested package will be DownloadVcpkgBinary/installed/<platform>-windows-<toolset>
