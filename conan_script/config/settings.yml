@@ -1,0 +1,2 @@
+vcpkg_port: ['info','zlib','bzip2','boost','eigen3','ffmpeg','glew','libjpeg-turbo','glew','liblzma','libpng','opencv','pangolin','protobuf','tiff','openssl','orb-slam2']
+vcpkg_triplet: ['info','x86-windows-v141','x86-windows-v140','x64-windows-v141','x64-windows-v140']

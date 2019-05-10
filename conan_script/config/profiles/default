@@ -1,0 +1,6 @@
+[build_requires]
+[settings]
+vcpkg_port=info
+vcpkg_triplet=info
+[options]
+[env]

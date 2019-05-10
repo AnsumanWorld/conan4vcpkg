@@ -1,0 +1,1 @@
+vcpkgrepository https://api.bintray.com/conan/apattnaik0721013/vcpkg
